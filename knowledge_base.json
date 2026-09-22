@@ -1,0 +1,506 @@
+{
+    "common_cold": {
+        "name": "Common Cold",
+        "keywords": [
+            "cold",
+            "common cold",
+            "runny nose",
+            "stuffy nose",
+            "sneezing"
+        ],
+        "description": "The common cold is a mild infection that commonly affects the nose and throat.",
+        "symptoms": [
+            "Runny or blocked nose",
+            "Sneezing",
+            "Sore throat",
+            "Mild cough",
+            "Tiredness"
+        ],
+        "self_care": [
+            "Get adequate rest",
+            "Drink enough fluids",
+            "Keep yourself comfortable",
+            "Use warm fluids to soothe the throat"
+        ],
+        "prevention": [
+            "Wash hands regularly",
+            "Avoid close contact with people who are sick",
+            "Avoid touching your eyes, nose and mouth with unwashed hands"
+        ],
+        "medical_help": "Seek medical advice if symptoms are severe, persistent, or getting worse.",
+        "medicine_note": "Ask a qualified healthcare professional or pharmacist before using medicines."
+    },
+
+    "headache": {
+        "name": "Headache",
+        "keywords": [
+            "headache",
+            "head pain",
+            "pain in head",
+            "head hurts"
+        ],
+        "description": "A headache is pain or discomfort in the head or surrounding areas. It can have many possible causes.",
+        "symptoms": [
+            "Pain or pressure in the head",
+            "Sensitivity to light or sound",
+            "Tiredness",
+            "Difficulty concentrating"
+        ],
+        "self_care": [
+            "Rest in a quiet environment",
+            "Drink enough water",
+            "Get adequate sleep",
+            "Take breaks from screens"
+        ],
+        "prevention": [
+            "Maintain regular sleep",
+            "Stay hydrated",
+            "Avoid skipping meals",
+            "Manage stress"
+        ],
+        "medical_help": "Consult a healthcare professional if headaches are frequent, severe, persistent, or unusual for you.",
+        "medicine_note": "Ask a healthcare professional or pharmacist whether any medicine is appropriate for you."
+    },
+
+    "fever": {
+        "name": "Fever",
+        "keywords": [
+            "fever",
+            "high temperature",
+            "temperature",
+            "body temperature"
+        ],
+        "description": "Fever is an increase in body temperature and can occur when the body is responding to an infection or another condition.",
+        "symptoms": [
+            "Increased body temperature",
+            "Feeling hot or cold",
+            "Sweating",
+            "Tiredness",
+            "Chills"
+        ],
+        "self_care": [
+            "Rest adequately",
+            "Drink enough fluids",
+            "Wear comfortable clothing",
+            "Monitor your temperature"
+        ],
+        "prevention": [
+            "Wash hands regularly",
+            "Maintain good hygiene",
+            "Avoid close contact with people who are sick"
+        ],
+        "medical_help": "Seek medical advice if fever is severe, persistent, or accompanied by concerning symptoms.",
+        "medicine_note": "Do not self-prescribe medicines. Ask a healthcare professional or pharmacist for appropriate advice."
+    },
+
+    "diabetes": {
+        "name": "Diabetes",
+        "keywords": [
+            "diabetes",
+            "diabetic",
+            "blood sugar",
+            "high blood sugar",
+            "glucose"
+        ],
+        "description": "Diabetes is a condition in which blood glucose levels are too high because the body does not produce enough insulin or does not use insulin effectively.",
+        "symptoms": [
+            "Increased thirst",
+            "Frequent urination",
+            "Increased hunger",
+            "Tiredness",
+            "Blurred vision",
+            "Unexplained weight changes"
+        ],
+        "self_care": [
+            "Follow a balanced eating pattern",
+            "Stay physically active according to professional advice",
+            "Monitor blood glucose when advised",
+            "Attend regular medical checkups"
+        ],
+        "prevention": [
+            "Maintain a balanced diet",
+            "Stay physically active",
+            "Maintain a healthy lifestyle",
+            "Attend regular health checkups"
+        ],
+        "medical_help": "People with symptoms or concerns about diabetes should consult a healthcare professional for proper evaluation and testing.",
+        "medicine_note": "Diabetes treatment should be guided by a qualified healthcare professional. Do not change prescribed treatment without medical advice."
+    },
+
+    "hypertension": {
+        "name": "High Blood Pressure",
+        "keywords": [
+            "high blood pressure",
+            "hypertension",
+            "blood pressure",
+            "bp",
+            "high bp"
+        ],
+        "description": "High blood pressure, also called hypertension, occurs when blood pressure remains higher than the recommended range over time.",
+        "symptoms": [
+            "High blood pressure may have no noticeable symptoms",
+            "Some people may experience headaches",
+            "Some people may experience dizziness",
+            "Regular blood pressure measurement is important"
+        ],
+        "self_care": [
+            "Monitor blood pressure as advised",
+            "Follow a balanced diet",
+            "Stay physically active",
+            "Get adequate sleep",
+            "Manage stress"
+        ],
+        "prevention": [
+            "Limit excessive salt intake",
+            "Stay physically active",
+            "Maintain a balanced diet",
+            "Avoid smoking",
+            "Attend regular health checkups"
+        ],
+        "medical_help": "Consult a healthcare professional if blood pressure readings remain high or you have concerns about your blood pressure.",
+        "medicine_note": "Do not start, stop, or change blood pressure medicines without professional medical advice."
+    },
+
+    "asthma": {
+        "name": "Asthma",
+        "keywords": [
+            "asthma",
+            "wheezing",
+            "breathing problem",
+            "breathing problems",
+            "shortness of breath"
+        ],
+        "description": "Asthma is a condition that affects the airways and can cause episodes of breathing difficulty.",
+        "symptoms": [
+            "Wheezing",
+            "Coughing",
+            "Shortness of breath",
+            "Chest tightness"
+        ],
+        "self_care": [
+            "Avoid known triggers when possible",
+            "Follow the asthma management plan provided by a healthcare professional",
+            "Keep regular medical appointments"
+        ],
+        "prevention": [
+            "Identify and avoid personal triggers",
+            "Avoid exposure to smoke",
+            "Follow professional asthma management advice"
+        ],
+        "medical_help": "Consult a healthcare professional for recurring breathing symptoms or asthma management.",
+        "medicine_note": "Asthma medicines should be used according to a healthcare professional's instructions."
+    },
+
+    "stomach_pain": {
+        "name": "Stomach Pain",
+        "keywords": [
+            "stomach pain",
+            "stomach ache",
+            "abdominal pain",
+            "abdomen pain",
+            "belly pain"
+        ],
+        "description": "Stomach or abdominal pain can have many possible causes, ranging from temporary digestive problems to conditions requiring medical evaluation.",
+        "symptoms": [
+            "Pain or discomfort in the abdomen",
+            "Bloating",
+            "Nausea",
+            "Changes in bowel movements"
+        ],
+        "self_care": [
+            "Drink enough fluids",
+            "Eat light and balanced meals if comfortable",
+            "Rest adequately",
+            "Monitor whether symptoms improve or worsen"
+        ],
+        "prevention": [
+            "Maintain good food hygiene",
+            "Eat balanced meals",
+            "Drink enough water",
+            "Avoid foods that consistently cause discomfort"
+        ],
+        "medical_help": "Seek medical advice if stomach pain is severe, persistent, recurring, or accompanied by concerning symptoms.",
+        "medicine_note": "Avoid self-prescribing medicines for unexplained abdominal pain. Consult a healthcare professional when needed."
+    },
+
+    "flu": {
+        "name": "Flu",
+        "keywords": [
+            "flu",
+            "influenza",
+            "seasonal flu"
+        ],
+        "description": "Influenza, commonly called flu, is a viral respiratory infection that can cause more intense symptoms than a typical common cold.",
+        "symptoms": [
+            "Fever",
+            "Cough",
+            "Sore throat",
+            "Body aches",
+            "Tiredness",
+            "Headache"
+        ],
+        "self_care": [
+            "Get plenty of rest",
+            "Drink enough fluids",
+            "Stay home when feeling unwell",
+            "Monitor your symptoms"
+        ],
+        "prevention": [
+            "Wash hands regularly",
+            "Avoid close contact with sick people",
+            "Improve ventilation in indoor spaces",
+            "Follow local vaccination guidance"
+        ],
+        "medical_help": "Consult a healthcare professional if symptoms are severe, persistent, or getting worse.",
+        "medicine_note": "Ask a healthcare professional or pharmacist about appropriate treatment options."
+    },
+
+    "cough": {
+        "name": "Cough",
+        "keywords": [
+            "cough",
+            "coughing",
+            "dry cough",
+            "wet cough"
+        ],
+        "description": "A cough is a protective reflex that helps clear the airways. It can occur with infections, allergies, asthma, or other conditions.",
+        "symptoms": [
+            "Repeated coughing",
+            "Throat irritation",
+            "Mucus in some cases",
+            "Chest discomfort in some cases"
+        ],
+        "self_care": [
+            "Drink enough fluids",
+            "Get adequate rest",
+            "Avoid smoke and other irritants",
+            "Monitor your symptoms"
+        ],
+        "prevention": [
+            "Wash hands regularly",
+            "Avoid smoking and secondhand smoke",
+            "Avoid known respiratory irritants"
+        ],
+        "medical_help": "Seek medical advice if the cough is severe, persistent, or associated with concerning symptoms.",
+        "medicine_note": "Ask a healthcare professional or pharmacist before using cough medicines."
+    },
+
+    "sore_throat": {
+        "name": "Sore Throat",
+        "keywords": [
+            "sore throat",
+            "throat pain",
+            "painful throat",
+            "throat hurts"
+        ],
+        "description": "A sore throat is irritation or pain in the throat and can occur with viral infections and other conditions.",
+        "symptoms": [
+            "Throat pain",
+            "Difficulty or discomfort when swallowing",
+            "Throat irritation",
+            "Redness of the throat"
+        ],
+        "self_care": [
+            "Drink enough fluids",
+            "Rest adequately",
+            "Use warm fluids for comfort",
+            "Avoid smoke and throat irritants"
+        ],
+        "prevention": [
+            "Wash hands regularly",
+            "Avoid close contact with people who are sick",
+            "Avoid sharing personal items with someone who is ill"
+        ],
+        "medical_help": "Consult a healthcare professional if symptoms are severe, persistent, or getting worse.",
+        "medicine_note": "Ask a healthcare professional or pharmacist about appropriate treatment."
+    },
+
+    "allergy": {
+        "name": "Allergy",
+        "keywords": [
+            "allergy",
+            "allergic",
+            "allergic reaction",
+            "pollen allergy",
+            "dust allergy"
+        ],
+        "description": "An allergy occurs when the immune system reacts to a substance that is usually harmless to most people.",
+        "symptoms": [
+            "Sneezing",
+            "Runny nose",
+            "Itchy or watery eyes",
+            "Skin irritation or rash",
+            "Nasal congestion"
+        ],
+        "self_care": [
+            "Avoid known triggers when possible",
+            "Keep surroundings clean",
+            "Wash hands after possible exposure",
+            "Monitor symptoms"
+        ],
+        "prevention": [
+            "Identify personal allergy triggers",
+            "Reduce exposure to known triggers",
+            "Keep indoor spaces clean"
+        ],
+        "medical_help": "Consult a healthcare professional if allergy symptoms are frequent, severe, or difficult to manage.",
+        "medicine_note": "Ask a healthcare professional or pharmacist about appropriate allergy treatment."
+    },
+
+    "dehydration": {
+        "name": "Dehydration",
+        "keywords": [
+            "dehydration",
+            "dehydrated",
+            "not enough water",
+            "lack of water",
+            "very thirsty"
+        ],
+        "description": "Dehydration occurs when the body loses more fluid than it takes in.",
+        "symptoms": [
+            "Increased thirst",
+            "Dry mouth",
+            "Tiredness",
+            "Dizziness",
+            "Reduced urination"
+        ],
+        "self_care": [
+            "Drink fluids regularly",
+            "Increase fluid intake when appropriate",
+            "Rest in a cool environment if overheated",
+            "Monitor symptoms"
+        ],
+        "prevention": [
+            "Drink fluids regularly",
+            "Drink more during hot weather or physical activity",
+            "Pay attention to signs of thirst"
+        ],
+        "medical_help": "Seek medical advice if dehydration is severe, persistent, or symptoms are worsening.",
+        "medicine_note": "If you are unsure what fluids or treatment are appropriate, consult a healthcare professional."
+    },
+
+    "diarrhea": {
+        "name": "Diarrhea",
+        "keywords": [
+            "diarrhea",
+            "loose motion",
+            "loose motions",
+            "watery stool",
+            "frequent stools"
+        ],
+        "description": "Diarrhea involves loose or watery stools and can have many possible causes, including infections and digestive problems.",
+        "symptoms": [
+            "Loose or watery stools",
+            "Frequent bowel movements",
+            "Stomach discomfort",
+            "Possible dehydration"
+        ],
+        "self_care": [
+            "Drink enough fluids",
+            "Rest adequately",
+            "Maintain good food hygiene",
+            "Monitor for signs of dehydration"
+        ],
+        "prevention": [
+            "Wash hands regularly",
+            "Drink safe water",
+            "Maintain good food hygiene",
+            "Store food safely"
+        ],
+        "medical_help": "Seek medical advice if diarrhea is severe, persistent, or accompanied by concerning symptoms.",
+        "medicine_note": "Ask a healthcare professional before using medicines for diarrhea, especially for children or persistent symptoms."
+    },
+
+    "constipation": {
+        "name": "Constipation",
+        "keywords": [
+            "constipation",
+            "constipated",
+            "difficulty passing stool",
+            "hard stool",
+            "not able to poop"
+        ],
+        "description": "Constipation means having bowel movements less often than usual or having difficulty passing hard stools.",
+        "symptoms": [
+            "Infrequent bowel movements",
+            "Hard stools",
+            "Difficulty passing stool",
+            "Abdominal discomfort"
+        ],
+        "self_care": [
+            "Drink enough fluids",
+            "Eat fiber-rich foods",
+            "Stay physically active",
+            "Maintain regular toilet habits"
+        ],
+        "prevention": [
+            "Eat a balanced diet with adequate fiber",
+            "Drink enough fluids",
+            "Stay physically active"
+        ],
+        "medical_help": "Consult a healthcare professional if constipation is persistent, severe, or repeatedly returns.",
+        "medicine_note": "Ask a healthcare professional or pharmacist before using laxatives or other medicines."
+    },
+
+    "acid_reflux": {
+        "name": "Acid Reflux",
+        "keywords": [
+            "acid reflux",
+            "heartburn",
+            "acid indigestion",
+            "burning chest",
+            "acid in stomach"
+        ],
+        "description": "Acid reflux occurs when stomach contents move back toward the food pipe and may cause a burning sensation or discomfort.",
+        "symptoms": [
+            "Burning sensation in the chest or upper abdomen",
+            "Sour or acidic taste",
+            "Regurgitation",
+            "Discomfort after meals"
+        ],
+        "self_care": [
+            "Avoid meals that consistently trigger symptoms",
+            "Eat smaller meals if comfortable",
+            "Avoid lying down immediately after eating",
+            "Maintain a healthy routine"
+        ],
+        "prevention": [
+            "Identify foods that trigger symptoms",
+            "Avoid eating immediately before lying down",
+            "Maintain regular meal habits"
+        ],
+        "medical_help": "Consult a healthcare professional if symptoms are frequent, persistent, or worsening.",
+        "medicine_note": "Ask a healthcare professional or pharmacist about suitable treatment options."
+    },
+
+    "migraine": {
+        "name": "Migraine",
+        "keywords": [
+            "migraine",
+            "migraine headache",
+            "throbbing headache",
+            "severe headache"
+        ],
+        "description": "Migraine is a neurological condition that can cause recurring headaches and other symptoms.",
+        "symptoms": [
+            "Headache",
+            "Sensitivity to light or sound",
+            "Nausea",
+            "Tiredness"
+        ],
+        "self_care": [
+            "Rest in a quiet environment",
+            "Stay hydrated",
+            "Maintain regular sleep",
+            "Identify and avoid personal triggers when possible"
+        ],
+        "prevention": [
+            "Maintain regular sleep",
+            "Stay hydrated",
+            "Avoid known personal triggers",
+            "Manage stress"
+        ],
+        "medical_help": "Consult a healthcare professional if headaches are frequent, severe, persistent, or unusual.",
+        "medicine_note": "Ask a healthcare professional about appropriate migraine treatment."
+    }
+}
