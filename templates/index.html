@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>MediChatbot</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+
+            <h1>🩺 MediChatbot</h1>
+
+            <p>Medical Information Assistant</p>
+
+        </div>
+
+
+        <!-- WARNING -->
+        <div class="warning">
+
+            <strong>Important:</strong>
+
+            MediChatbot provides general health information
+            for educational purposes.
+
+            It does not replace a qualified healthcare
+            professional.
+
+        </div>
+
+
+        <!-- QUICK TOPICS -->
+        <div class="topic-section">
+
+            <p class="topic-title">
+                Quick Health Topics
+            </p>
+
+            <div class="topic-buttons">
+
+                <button
+                    class="topic-button"
+                    data-topic="Common Cold">
+                    🤧 Common Cold
+                </button>
+
+                <button
+                    class="topic-button"
+                    data-topic="Headache">
+                    🤕 Headache
+                </button>
+
+                <button
+                    class="topic-button"
+                    data-topic="Fever">
+                    🌡️ Fever
+                </button>
+
+                <button
+                    class="topic-button"
+                    data-topic="Diabetes">
+                    🩸 Diabetes
+                </button>
+
+                <button
+                    class="topic-button"
+                    data-topic="High Blood Pressure">
+                    ❤️ Blood Pressure
+                </button>
+
+                <button
+                    class="topic-button"
+                    data-topic="Asthma">
+                    🫁 Asthma
+                </button>
+
+                <button
+                    class="topic-button"
+                    data-topic="Acid Reflux">
+                    🔥 Acid Reflux
+                </button>
+
+                <button
+                    class="topic-button"
+                    data-topic="Migraine">
+                    🧠 Migraine
+                </button>
+
+            </div>
+
+
+            <!-- SEARCH -->
+            <div class="search-section">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search a health topic..."
+                    autocomplete="off">
+
+                <button id="searchButton">
+                    🔍 Search
+                </button>
+
+            </div>
+
+            <div id="searchResults"
+                 class="search-results">
+            </div>
+
+        </div>
+
+
+        <!-- CHAT BOX -->
+        <div id="chatBox"
+             class="chat-box">
+
+            <div class="message bot">
+
+                <strong>MediChatbot</strong>
+
+                <p>
+                    Hello! 👋 I can provide general information
+                    about common health conditions, symptoms,
+                    prevention and self-care.
+                </p>
+
+                <p>
+                    You can select a topic above or type your
+                    health-related question below.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHAT CONTROLS -->
+        <div class="chat-controls">
+
+            <button
+                id="historyButton"
+                class="history-button">
+
+                📜 Chat History
+
+            </button>
+
+
+            <button
+                id="clearButton"
+                class="clear-button">
+
+                🗑️ Clear Chat
+
+            </button>
+
+        </div>
+
+
+        <!-- HISTORY -->
+        <div id="historyPanel"
+             class="history-panel">
+
+            <h3>📜 Chat History</h3>
+
+            <div id="historyContent">
+                Loading history...
+            </div>
+
+        </div>
+
+
+        <!-- INPUT -->
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Ask a health-related question..."
+                autocomplete="off">
+
+            <button id="sendButton">
+                Send
+            </button>
+
+        </div>
+
+
+        <!-- ABOUT -->
+        <div class="about-section">
+
+            <h3>🩺 About MediChatbot</h3>
+
+            <p>
+                MediChatbot is a web-based medical information
+                assistant designed to provide general educational
+                information about common health conditions.
+            </p>
+
+
+            <div class="about-features">
+
+                <div class="about-card">
+
+                    <h4>📚 Health Information</h4>
+
+                    <p>
+                        Provides information about symptoms,
+                        prevention and general self-care.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <h4>⚠️ Safety Guidance</h4>
+
+                    <p>
+                        Identifies certain urgent situations
+                        and recommends seeking immediate
+                        medical care.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <h4>💾 Chat History</h4>
+
+                    <p>
+                        Stores conversations locally using
+                        an SQLite database.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <p>
+                © 2026 MediChatbot |
+                Medical Information Assistant
+            </p>
+
+            <p>
+                For educational purposes only.
+                This chatbot does not replace professional
+                medical advice.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="{{ url_for('static', filename='js/script.js') }}">
+    </script>
+
+</body>
+
+</html>
